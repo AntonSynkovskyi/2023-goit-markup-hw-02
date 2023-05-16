@@ -123,8 +123,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--primary-brand-color);
-  background: var(--white-color);
+  background: var(--pressed-state-color);
 }
 
 /*================== Features ===============*/
@@ -185,6 +184,7 @@ body {
 .team-list {
 }
 .team-item {
+  background: var(--white-background-color);
 }
 .team-item-title {
   font-weight: 500;
@@ -215,4 +215,49 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
+}
+
+/*================Portfolio==============*/
+.portfolio {
+  background: var(--white-background-color);
+}
+.portfolio-title {
+}
+.portfolio-btn-list {
+}
+.portfolio-btn-item {
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background: var(--light-color);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-color);
+  background: var(--pressed-state-color);
+}
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
