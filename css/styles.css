@@ -24,7 +24,6 @@ body {
 .reset-link {
   text-decoration: none;
   color: inherit;
-  font-style: normal;
 }
 .reset-list {
   list-style: none;
@@ -81,6 +80,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
