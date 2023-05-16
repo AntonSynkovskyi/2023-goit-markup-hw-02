@@ -24,6 +24,7 @@ body {
 .reset-link {
   text-decoration: none;
   color: inherit;
+  font-style: normal;
 }
 .reset-list {
   list-style: none;
